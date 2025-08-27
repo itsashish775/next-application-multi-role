@@ -1,13 +1,12 @@
 import { bannerSlides } from "@/lib/data";
+import { User } from "@/lib/types/user.types";
 import Link from "next/link";
 import Slider from "react-slick";
 type HeroBannerProps = {
-  user?: any | null; // 👈 define type
+  user?: User | null;
 };
 
 export default function HeroBanner({ user }: HeroBannerProps) {
-  
-
   const settings = {
     dots: true,
     infinite: true,

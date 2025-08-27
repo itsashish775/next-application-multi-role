@@ -9,6 +9,7 @@ import Services from "@/components/Sections/sections/ServiceSection";
 import WhyUsSection from "@/components/Sections/sections/WhyUs";
 import Footer from "@/components/PublicFooter";
 import FaqSection from "@/components/Sections/sections/FaqSection";
+import { User } from "@/lib/types/user.types";
 const settings: Settings = {
   dots: true,
   infinite: true,
@@ -31,7 +32,7 @@ const settings: Settings = {
 };
 
 export default function Home() {
-  const user = AuthService.getCurrentUser();
+  const user: User = AuthService.getCurrentUser();
 
   return (
     <div className='min-h-screen bg-gray-50'>
@@ -50,15 +51,11 @@ export default function Home() {
             <WhyUsSection />
           </div>
           <div>
-            <FaqSection/>
+            <FaqSection />
           </div>
-
-      
-
-          
         </div>
       </main>
-      <div className="mt-4">
+      <div className='mt-4'>
         <Footer />
       </div>
     </div>
