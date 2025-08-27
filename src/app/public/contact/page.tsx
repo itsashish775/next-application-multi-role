@@ -71,7 +71,7 @@ export default function Contact() {
                 📍 Mailing Address
               </h2>
               <p className='text-gray-600 leading-relaxed'>
-                MultiRole App Inc. <br />
+                Legal Advice Inc. <br />
                 123 Technology Drive <br />
                 San Francisco, CA 94103 <br />
                 United States

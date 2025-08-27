@@ -16,7 +16,7 @@ export default function PublicHeader() {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <h1 className="text-xl font-bold text-gray-900">MultiRole App</h1>
+            <h1 className="text-xl font-bold text-gray-900">Legal Advice</h1>
           </div>
 
           {/* Desktop Navigation */}
