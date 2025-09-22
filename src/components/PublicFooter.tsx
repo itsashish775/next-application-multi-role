@@ -12,13 +12,13 @@ import {
 
 export default function Footer() {
   return (
-    <footer className='bg-gray-900 text-gray-300'>
+    <footer className='bg-amber-100 text-neutral-600'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14'>
         {/* Top Grid */}
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8'>
           {/* Business Registration */}
           <div>
-            <h3 className='text-lg font-semibold text-white mb-3'>
+            <h3 className='text-lg font-semibold text-gray-800 mb-3'>
               Business Registration
             </h3>
             <ul className='space-y-2 text-sm'>
@@ -32,7 +32,7 @@ export default function Footer() {
 
           {/* Licenses */}
           <div>
-            <h3 className='text-lg font-semibold text-white mb-3'>Licenses</h3>
+            <h3 className='text-lg font-semibold text-gray-800 mb-3'>Licenses</h3>
             <ul className='space-y-2 text-sm'>
               <li>FSSAI [Food License]</li>
               <li>FSSAI Renewal</li>
@@ -44,7 +44,7 @@ export default function Footer() {
 
           {/* Registration */}
           <div>
-            <h3 className='text-lg font-semibold text-white mb-3'>
+            <h3 className='text-lg font-semibold text-gray-800 mb-3'>
               Registration
             </h3>
             <ul className='space-y-2 text-sm'>
@@ -57,7 +57,7 @@ export default function Footer() {
 
           {/* GST */}
           <div>
-            <h3 className='text-lg font-semibold text-white mb-3'>GST</h3>
+            <h3 className='text-lg font-semibold text-gray-800 mb-3'>GST</h3>
             <ul className='space-y-2 text-sm'>
               <li>GST Registration</li>
               <li>GST Filing</li>
@@ -68,7 +68,7 @@ export default function Footer() {
 
           {/* Accounting & Tax */}
           <div>
-            <h3 className='text-lg font-semibold text-white mb-3'>
+            <h3 className='text-lg font-semibold text-gray-800 mb-3'>
               Accounting & Tax
             </h3>
             <ul className='space-y-2 text-sm'>
@@ -83,7 +83,7 @@ export default function Footer() {
         <div className='border-t border-gray-700 mt-10 pt-6'>
           {/* Brand Info */}
           <div className='text-sm text-gray-400 mb-6'>
-            <p className='font-semibold text-white'>Legal Advice India</p>
+            <p className='font-semibold text-gray-800'>Legal Advice India</p>
             <p className='mt-2'>
               Legal Advice India is a part of Demo Legal Services Pvt Ltd,
               registered under the Companies Act, 2013.

@@ -18,12 +18,12 @@ export default function Services() {
              hover:shadow-lg hover:shadow-indigo-300 overflow-hidden'
             >
               {/* Background Image */}
-              <div className='absolute inset-0'>
-                <img
+              <div className='absolute inset-0 bg-[#d06c00]'>
+                {/* <img
                   src={"https://picsum.photos/600/400"}
                   alt={service.title}
                   className='w-full h-full object-cover transition duration-500 group-hover:scale-110 group-hover:blur-sm'
-                />
+                /> */}
                 {/* Optional dark overlay (can be tuned) */}
                 <div className='absolute inset-0 bg-black/30 transition duration-500 group-hover:bg-black/40'></div>
               </div>
