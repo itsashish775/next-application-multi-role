@@ -200,19 +200,19 @@ export const bannerSlides = [
     title: "Trusted Legal Consultancy Services",
     description:
       "Expert legal advice for businesses and individuals. We simplify complex legal matters with practical solutions tailored to your needs.",
-    image: "https://picsum.photos/600/400",
+    image: "images/banner1.jpg",
   },
   {
     title: "Book Lawyers Anytime, Anywhere",
     description:
       "Get instant access to top legal professionals across India with just a few clicks.",
-    image: "https://picsum.photos/600/400",
+    image: "images/banner2.jpg",
   },
   {
     title: "Secure & Confidential Consultations",
     description:
       "Your privacy is our priority. All consultations are encrypted and safe.",
-    image: "https://picsum.photos/600/400",
+    image: "images/banner3.jpg",
   },
 ];
 import {

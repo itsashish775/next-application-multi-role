@@ -1,5 +1,6 @@
 import { bannerSlides } from "@/lib/data";
 import { User } from "@/lib/types/user.types";
+import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 type HeroBannerProps = {
@@ -24,11 +25,15 @@ export default function HeroBanner({ user }: HeroBannerProps) {
         {bannerSlides.map((slide, index) => (
           <div key={index} className='relative h-[80vh]'>
             {/* Background Image */}
-            <div
-              className='absolute inset-0 bg-cover bg-center'
-              style={{ backgroundImage: `url(${slide.image})` }}
-            >
-              <div className='absolute inset-0 bg-black/50'></div>
+            <div className='absolute inset-0'>
+              <Image
+                src={`/${slide.image}`}
+                alt='Slide background'
+                fill
+                priority
+                className='object-cover object-center'
+              />
+              <div className='absolute inset-0 bg-black/50' />
             </div>
 
             {/* Centered Content */}
