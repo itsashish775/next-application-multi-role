@@ -10,6 +10,7 @@ import WhyUsSection from "@/components/Sections/sections/WhyUs";
 import Footer from "@/components/PublicFooter";
 import FaqSection from "@/components/Sections/sections/FaqSection";
 import { User } from "@/lib/types/user.types";
+import CustomerReviewSection from "@/components/Sections/sections/CustomerReview";
 const settings: Settings = {
   dots: true,
   infinite: true,
@@ -52,6 +53,9 @@ export default function Home() {
           </div>
           <div>
             <FaqSection />
+          </div>
+          <div>
+            {/* <CustomerReviewSection /> */}
           </div>
         </div>
       </main>

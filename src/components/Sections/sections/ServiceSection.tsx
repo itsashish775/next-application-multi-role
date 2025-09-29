@@ -14,26 +14,25 @@ export default function Services() {
           {services?.slice(0, 3).map((service) => (
             <div
               key={service.id}
-              className='relative rounded-2xl shadow-md transition group 
-             hover:shadow-lg hover:shadow-indigo-300 overflow-hidden'
+              className='relative rounded-2xl shadow-md overflow-hidden transition group hover:shadow-lg'
             >
-              {/* Background Image */}
-              <div className='absolute inset-0 bg-[#d06c00]'>
-                {/* <img
+              {/* Image */}
+              <div className='relative w-full h-48'>
+                <img
                   src={"https://picsum.photos/600/400"}
                   alt={service.title}
-                  className='w-full h-full object-cover transition duration-500 group-hover:scale-110 group-hover:blur-sm'
-                /> */}
-                {/* Optional dark overlay (can be tuned) */}
-                <div className='absolute inset-0 bg-black/30 transition duration-500 group-hover:bg-black/40'></div>
+                  className='w-full h-full object-cover transition duration-500 group-hover:scale-105'
+                />
+                {/* Optional dark overlay */}
+                <div className='absolute inset-0 bg-black/20 transition duration-500 group-hover:bg-black/30'></div>
               </div>
 
-              {/* Foreground Content */}
-              <div className='relative p-6'>
-                <h3 className='text-xl font-bold mb-2 text-white'>
+              {/* Content */}
+              <div className='p-6 bg-white'>
+                <h3 className='text-xl font-bold mb-2 text-gray-900'>
                   {service.title}
                 </h3>
-                <p className='text-gray-200 mb-4'>{service.description}</p>
+                <p className='text-gray-700 mb-4'>{service.description}</p>
 
                 {service.isDisabled ? (
                   <span className='text-gray-400 font-semibold cursor-not-allowed'>
@@ -42,7 +41,7 @@ export default function Services() {
                 ) : (
                   <Link
                     href={service.link}
-                    className='text-indigo-300 font-semibold hover:underline'
+                    className='text-indigo-500 font-semibold hover:underline'
                   >
                     Click Here →
                   </Link>

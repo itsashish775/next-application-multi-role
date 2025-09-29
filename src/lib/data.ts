@@ -328,3 +328,42 @@ export const faqs = [
       "You can request a quotation by submitting your case details through our website or contacting us directly for a personalized estimate.",
   },
 ];
+
+export const customerReviewData = [
+  {
+    id: 1,
+    image: "/users/vijay.jpg",
+    name: "Vijay Kanoor",
+    location: "Bangalore, Karnataka",
+    review:
+      "I've been using the LegalKart app and it's really made dealing with legal stuff easier. It's great how I can just open the app and quickly find a legal expert to talk to, no matter what time it is.",
+    rating: 5,
+  },
+  {
+    id: 2,
+    image: "/users/sneha.jpg",
+    name: "Sneha Reddy",
+    location: "Hyderabad, Telangana",
+    review:
+      "Super easy to use and very helpful. I was able to find answers to my legal questions in no time. Highly recommended!",
+    rating: 4,
+  },
+  {
+    id: 3,
+    image: "/users/rahul.jpg",
+    name: "Rahul Sharma",
+    location: "Delhi, India",
+    review:
+      "Great experience with the platform. I really appreciate how quickly I can get expert advice without any hassle.",
+    rating: 5,
+  },
+  {
+    id: 4,
+    image: "/users/priya.jpg",
+    name: "Priya Mehta",
+    location: "Mumbai, Maharashtra",
+    review:
+      "The app has been a big help in understanding legal procedures. Everything is explained in simple terms.",
+    rating: 5,
+  },
+];
